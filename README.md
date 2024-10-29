@@ -32,10 +32,10 @@ El transporte en el Politécnico Grancolombiano consiste en un grupo de buses qu
 Una situación recurrente es que los estudiantes pierden el bus por desconocer los horarios exactos, lo que provoca esperas mínimas de 10 minutos, afectando su llegada a actividades académicas. Compartir información en tiempo real sobre las salidas y llegadas de los buses beneficiaría tanto a estudiantes como a profesores. El análisis detallado mediante el Árbol de Problemas y el Árbol de Objetivos permite identificar soluciones y planificar mejoras para optimizar este servicio.
 
 ###**Árbol de Problemas**:
-![]()
+![](https://github.com/JDteufel/Movilidad-Agil/blob/main/Mapa%20conceptual.png)
 
 ###**Árbol de Soluciones**:
-
+![](https://github.com/JDteufel/Movilidad-Agil/blob/main/Tablero%20en%20blanco.png)
 
 
 ## IV.	**Justificación**

@@ -1,18 +1,20 @@
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-#include <Wire.h>  // Librería I2C
+#include <Wire.h>
 
+//Creación de las variables a utilizar
 const char* ssid = "Juan David";
 const char* password = "12345678";
 
 bool estadoLED = 0;
 const int pinLED = 2;
-const int direccionEsclavo = 8;  // Dirección del Arduino UNO en el bus I2C
+const int direccionEsclavo = 8;
 
 AsyncWebServer server(80);
 AsyncWebSocket ws("/ws");
 
+//Documento de la página creada en html
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
@@ -147,7 +149,7 @@ void enviarEstadoI2C() {
 
 void notifyClients() {
   ws.textAll(String(estadoLED));
-  enviarEstadoI2C();  // Envía el estado al Arduino cada vez que cambia el LED
+  enviarEstadoI2C(); 
 }
 
 void handleWebSocketMessage(void *arg, uint8_t *data, size_t len) {
@@ -203,7 +205,7 @@ void setup(){
   digitalWrite(pinLED, LOW);
   
   // Inicialización del I2C
-  Wire.begin();  // ESP32 como maestro
+  Wire.begin(); 
 
   // Conexión WiFi
   WiFi.begin(ssid, password);
@@ -223,6 +225,7 @@ void setup(){
   server.begin();
 }
 
+//Envío de las órdenes al LED
 void loop() {
   ws.cleanupClients();
   digitalWrite(pinLED, estadoLED);

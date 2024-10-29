@@ -1,12 +1,13 @@
 #include <Wire.h>
 
-const int pinLED = 13;  // El pin donde está conectado el LED (en este caso el LED interno)
+const int pinLED = 13;
 
 void setup() {
-  Wire.begin(8);  // Inicia I2C con dirección esclavo 8
-  Wire.onReceive(receiveEvent);  // Se llama cuando se recibe un dato
-  pinMode(pinLED, OUTPUT);  // Configura el LED como salida
-  Serial.begin(9600);  // Inicia la comunicación serie para depuración
+  // Inicia la comunicación I2C, el pin y el monitor serial
+  Wire.begin(8);  
+  Wire.onReceive(receiveEvent);
+  pinMode(pinLED, OUTPUT);
+  Serial.begin(9600);
 }
 
 void receiveEvent(int howMany) {
@@ -14,10 +15,10 @@ void receiveEvent(int howMany) {
     // Recibe el estado del LED (1 para ON, 0 para OFF)
     char estado = Wire.read();
     if (estado == 1) {
-      digitalWrite(pinLED, HIGH);  // Enciende el LED
+      digitalWrite(pinLED, HIGH);
       Serial.println("LED encendido");
     } else {
-      digitalWrite(pinLED, LOW);  // Apaga el LED
+      digitalWrite(pinLED, LOW);
       Serial.println("LED apagado");
     }
   }

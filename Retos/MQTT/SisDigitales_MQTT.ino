@@ -66,5 +66,5 @@ void loop() {
   client.publish(topic, mensaje.c_str());
   Serial.println("Dato enviado: " + mensaje);
 
- delay(100);
+ delay(10000);
 }

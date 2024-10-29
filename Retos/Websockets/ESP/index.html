@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jadsa Tech</title>
+    </head>
+
+    <body>
+        <div style = "text-align: center;">
+            <h1>
+                Control LED ESP32
+            </h1>
+            <h3>
+                LED
+            </h3>
+            <button onclick = "Encender()">&nbsp;Encender&nbsp;</button>
+            <button onclick = "Apagar()">&nbsp;Apagar&nbsp;</button>
+        </div>
+    </body>
+
+    <script>
+        let socketConnection = new WebSocket('ws://' + location.hostname + ':81/');
+
+        const Encender = () => socketConnection.send("Encender");
+        const Apagar = () => socketConnection.send("Apagar");
+    </script>
+</html>

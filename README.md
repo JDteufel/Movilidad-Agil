@@ -49,6 +49,8 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 **Diseño del prototipo**: En esta fase, se definirá el diagrama esquemático del sistema, que incluirá la integración de la placa Arduino con los sensores GPS y módulos de comunicación. Se realizarán cálculos y diagramas para asegurar la correcta funcionalidad del prototipo en el entorno de transporte de la universidad. 
 
-**Implementación**: Se procederá a la construcción del prototipo físico. Los componentes se ensamblarán sobre el diseño de Arduino UNO y se programarán para que puedan detectar la posición en tiempo real de los buses universitarios y enviar esa información a una base de datos centralizada o directamente a los dispositivos móviles de los usuarios. 
+**Implementación**: Se procederá a la construcción del prototipo físico. Los componentes se ensamblarán sobre el diseño de Arduino UNO y se programarán para que puedan detectar la posición en tiempo real de los buses universitarios y enviar esa información a una base de datos centralizada o directamente a los dispositivos móviles de los usuarios.
+
+**Codificación**: Durante 5 semanas se crearon diversos retos basados en IoT, estos son programas utilizando protocolos I2C, WebSockets y MQTT. Se crean con el objetivo de tener una guía para posteriormente ser aplicados dentro del proyecto. El objetivo final incluirá la inclusión de estos 3 protocolos dentro del código y el diseño físico.
 
 **Pruebas y simulaciones**: Se realizarán pruebas de funcionamiento tanto en entornos simulados como en las rutas reales del Politécnico. Estas pruebas buscarán garantizar la precisión de los datos recogidos por los sensores y evaluar la respuesta en tiempo real del sistema. Además, se medirán parámetros como la cobertura de señal, tiempos de latencia y consumo energético del sistema. 

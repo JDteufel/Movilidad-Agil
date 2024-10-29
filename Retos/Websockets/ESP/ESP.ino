@@ -1,7 +1,9 @@
+//Librerías necesarias
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 
+//Declaración de las variables a utilizar
 const char* ssid = "Juan David";
 const char* password = "12345678";
 
@@ -11,6 +13,7 @@ const int pinLED = 2;
 AsyncWebServer server(80);
 AsyncWebSocket ws("/ws");
 
+//Página de html
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
@@ -209,6 +212,7 @@ void setup(){
   server.begin();
 }
 
+//Envío de las ordenes al LED
 void loop() {
   ws.cleanupClients();
   digitalWrite(pinLED, estadoLED);

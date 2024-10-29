@@ -43,7 +43,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
-## IV.	**Metodología**
+## V.	**Metodología**
 
 **Obtención de información**: Al iniciar y con el objetivo de obtener una base sólida de información se utilizaron las bases de datos de Google Scholar por su amplitud de información junto con la utilización de recursos provistos por la universidad, por medio de Scopus, Scielo y SpringerLink que hacen parte de la biblioteca virtual CREA. Adicionalmente en el marco teórico se añaden más referencias que explican temas importantes en el ámbito del proyecto, definiciones y descripciones en mayor medida.
 

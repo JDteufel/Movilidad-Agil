@@ -58,7 +58,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
-## VI.	**MARCO TEÓRICO**
+## VI.	**Marco Teórico**
 
 **GPS**: Según Jablonski (2002), el Sistema de Posicionamiento Global (GPS por sus siglas en inglés) es un sistema de navegación basado en un conjunto de satélites que calculan la posición de un usuario en base al tiempo y la distancia individual entre sí y el mismo. Este proceso se mide con 4 satélites por usuario para mejorar la precisión.
 
@@ -72,7 +72,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
-## VII. **DISEÑO**
+## VII. **Diseño**
 
 ### **Requisitos**: 
 El producto final debe de tener una interfaz fácil de manejar tanto para los conductores que lo implementarán en el bus como para los estudiantes que accederán a la información por medio de mensajes SMS. Debe ser un diseño compacto, con una fuente de energía accesible.
@@ -101,8 +101,10 @@ Para garantizar el correcto funcionamiento del gps y la estimación de llegada d
 - **Estimación de tiempo de llegada**: Teniendo en cuenta que para conocer el tiempo de llegada estimado se utilizaría la fórmula t = d/v , donde d = 2000m (2km) y v se actualiza cada 7 segundos tomando el dato obtenido por el gps.
 
 
+## VIII. **Conclusiones**
 
-## VIII.	**REFERENCIAS BIBLIOGRÁFICAS**
+
+## IX.	**Referencias Bibliográficas**
 
 - Badawy, E. Elhakim, A. Abdulhameed, A. Zualkernan, I. (2016). An IoT based School bus Tracking and Monitoring System. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://library.iated.org/view/BADAWY2016ANI
 

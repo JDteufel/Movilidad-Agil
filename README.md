@@ -90,7 +90,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 - Srivastava, D. Kesarwani, A. Dubey, S. (2008). Measurement of Temperature and Humidity by using Arduino Tool and DHT11. JSS Academy of Technical Education, Noida, India. https://www.academia.edu/download/58144752/IRJET-V5I12167.pdf 
 
-Dinculeană, D. Cheng, X. (2019). Vulnerabilities and Limitations of MQTT Protocol Used between IoT Devices. Middlesex University, Londres, Inglaterra. https://www.mdpi.com/2076-3417/9/5/848 
+- Dinculeană, D. Cheng, X. (2019). Vulnerabilities and Limitations of MQTT Protocol Used between IoT Devices. Middlesex University, Londres, Inglaterra. https://www.mdpi.com/2076-3417/9/5/848 
 
-Catelon, M. Harter, M. Holowaychuk, T. Rajlich, N. Schlueter, I. (2014). Nodejs in Action. Manning Publications Co, Nueva York, Estados Unidos de América. http://dl.ketabesabz.com/ebooks3/up/node-js-in-action_[www.ketabesabz.com].pdf
+- Catelon, M. Harter, M. Holowaychuk, T. Rajlich, N. Schlueter, I. (2014). Nodejs in Action. Manning Publications Co, Nueva York, Estados Unidos de América. http://dl.ketabesabz.com/ebooks3/up/node-js-in-action_[www.ketabesabz.com].pdf
 

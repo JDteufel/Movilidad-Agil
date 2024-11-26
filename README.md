@@ -74,12 +74,22 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 ## VII. **DISEÑO**
 
-### **Análisis previos**:
-- **Reqiusitos**: 
-- **Limitaciones**:
+### **Requisitos**: 
+El producto final debe de tener una interfaz fácil de manejar tanto para los conductores que lo implementarán en el bus como para los estudiantes que accederán a la información por medio de mensajes SMS. Debe ser un diseño compacto, con una fuente de energía accesible.
 
-### **Esquemáticos**:
+Teniendo todo lo anterior en cuenta se optó por recubrir el proyecto con una caja contenedora donde los diferentes módulos y el ESP32 se encuentren alojados, y esta se ubicará al lado de la cabina del conductor donde recibirá la señal satelital GPS. El dispositivo se conectará por medio de un cable USB tipo b que puede ser conectado a una cabeza de cargador genérico. 
+
+
+###	**Limitaciones**: 
+La falta de señal en ciertos tramos del trayecto puede afectar a la comunicación del dispositivo temporalmente.
+Además, es posible que al ser encendido por primera vez el GPS necesite unos minutos para calibrar, afectando el funcionamiento en la primera salida del bus.
+
+
+### **Esquema**:
+
 ![](https://github.com/JDteufel/Movilidad-Agil/blob/main/Imagenes/esp32sim800lgps.png)
+
+
 
 ### **Cálculos**:
 Para garantizar el correcto funcionamiento del gps y la estimación de llegada de una sede a otra se deben tener en cuenta los siguientes puntos:

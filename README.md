@@ -44,6 +44,20 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
+## V.	**Metodología**
+
+**Obtención de información**: Al iniciar y con el objetivo de obtener una base sólida de información se utilizaron las bases de datos de Google Scholar por su amplitud de información junto con la utilización de recursos provistos por la universidad, por medio de Scopus, Scielo y SpringerLink que hacen parte de la biblioteca virtual CREA. Adicionalmente en el marco teórico se añaden más referencias que explican temas importantes en el ámbito del proyecto, definiciones y descripciones en mayor medida.
+
+**Diseño del prototipo**: En esta fase, se definirá el diagrama esquemático del sistema, que incluirá la integración de la placa Arduino con los sensores GPS y módulos de comunicación. Se realizarán cálculos y diagramas para asegurar la correcta funcionalidad del prototipo en el entorno de transporte de la universidad. 
+
+**Implementación**: Se procederá a la construcción del prototipo físico. Los componentes se ensamblarán sobre el diseño de Arduino UNO y se programarán para que puedan detectar la posición en tiempo real de los buses universitarios y enviar esa información a una base de datos centralizada o directamente a los dispositivos móviles de los usuarios.
+
+**Codificación**: Durante 5 semanas se crearon diversos retos basados en IoT, estos son programas utilizando protocolos I2C, WebSockets y MQTT. Se crean con el objetivo de tener una guía para posteriormente ser aplicados dentro del proyecto. El objetivo final incluirá la inclusión de estos 3 protocolos dentro del código y el diseño físico.
+
+**Pruebas y simulaciones**: Se realizarán pruebas de funcionamiento tanto en entornos simulados como en las rutas reales del Politécnico. Estas pruebas buscarán garantizar la precisión de los datos recogidos por los sensores y evaluar la respuesta en tiempo real del sistema. Además, se medirán parámetros como la cobertura de señal, tiempos de latencia y consumo energético del sistema. 
+
+
+
 ## VI.	**MARCO TEÓRICO**
 
 **GPS**: Según Jablonski (2002), el Sistema de Posicionamiento Global (GPS por sus siglas en inglés) es un sistema de navegación basado en un conjunto de satélites que calculan la posición de un usuario en base al tiempo y la distancia individual entre sí y el mismo. Este proceso se mide con 4 satélites por usuario para mejorar la precisión.
@@ -58,17 +72,22 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
-## V.	**Metodología**
+## VII **DISEÑO**
 
-**Obtención de información**: Al iniciar y con el objetivo de obtener una base sólida de información se utilizaron las bases de datos de Google Scholar por su amplitud de información junto con la utilización de recursos provistos por la universidad, por medio de Scopus, Scielo y SpringerLink que hacen parte de la biblioteca virtual CREA. Adicionalmente en el marco teórico se añaden más referencias que explican temas importantes en el ámbito del proyecto, definiciones y descripciones en mayor medida.
+### **Análisis previos**:
+- **Reqiusitos**: 
+- **Limitaciones**:
 
-**Diseño del prototipo**: En esta fase, se definirá el diagrama esquemático del sistema, que incluirá la integración de la placa Arduino con los sensores GPS y módulos de comunicación. Se realizarán cálculos y diagramas para asegurar la correcta funcionalidad del prototipo en el entorno de transporte de la universidad. 
+### **Esquemáticos**:
 
-**Implementación**: Se procederá a la construcción del prototipo físico. Los componentes se ensamblarán sobre el diseño de Arduino UNO y se programarán para que puedan detectar la posición en tiempo real de los buses universitarios y enviar esa información a una base de datos centralizada o directamente a los dispositivos móviles de los usuarios.
+### **Cálculos**:
+Para garantizar el correcto funcionamiento del gps y la estimación de llegada de una sede a otra se deben tener en cuenta los siguientes puntos:
 
-**Codificación**: Durante 5 semanas se crearon diversos retos basados en IoT, estos son programas utilizando protocolos I2C, WebSockets y MQTT. Se crean con el objetivo de tener una guía para posteriormente ser aplicados dentro del proyecto. El objetivo final incluirá la inclusión de estos 3 protocolos dentro del código y el diseño físico.
+- **Precisión del dispositivo GPS**: El modulo gps neo-6m cuenta con una Taza de Actualización de 5 Hz y una precisión de posicionamiento equivalente a 2.5 MCEP (Mean Circular Error Probable, estándar que mide la dispersión de datos gps); en otras palabras cuenta con un promedio de error de 2.5 metros.
 
-**Pruebas y simulaciones**: Se realizarán pruebas de funcionamiento tanto en entornos simulados como en las rutas reales del Politécnico. Estas pruebas buscarán garantizar la precisión de los datos recogidos por los sensores y evaluar la respuesta en tiempo real del sistema. Además, se medirán parámetros como la cobertura de señal, tiempos de latencia y consumo energético del sistema. 
+- **Tiempo de actualización de datos**: Los datos de velocidad y posición obtenidos por el modulo GPS son actualizados cada 7 seg. Por otro lado el envío de un sms al celular de la persona que solicita la información puede tardar poco más de un minuto.
+
+- **Estimación de tiempo de llegada**: Teniendo en cuenta que para conocer el tiempo de llegada estimado se utilizaría la fórmula t = d/v , donde d = 2000m (2km) y v se actualiza cada 7 segundos tomando el dato obtenido por el gps.
 
 
 
@@ -93,4 +112,6 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 - Dinculeană, D. Cheng, X. (2019). Vulnerabilities and Limitations of MQTT Protocol Used between IoT Devices. Middlesex University, Londres, Inglaterra. https://www.mdpi.com/2076-3417/9/5/848 
 
 - Catelon, M. Harter, M. Holowaychuk, T. Rajlich, N. Schlueter, I. (2014). Nodejs in Action. Manning Publications Co, Nueva York, Estados Unidos de América. http://dl.ketabesabz.com/ebooks3/up/node-js-in-action_[www.ketabesabz.com].pdf
+
+- U-blox AG. (2011).  NEO-6 u-blox 6 GPS Modules Data Sheet [Folleto]. https://www.sigmaelectronica.net/wp-content/uploads/2021/11/GY-NEO-6M-V2-pdf.pdf
 

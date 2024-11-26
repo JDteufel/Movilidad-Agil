@@ -102,7 +102,7 @@ Para garantizar el correcto funcionamiento del gps y la estimación de llegada d
 
 
 
-VIII.	### **Conclusiones**
+## VIII. **Conclusiones**
 - Se demostró que la implementación de un entorno de movilidad inteligente puede ser de gran ayuda para la problemática de la organización y manejo del tiempo en un entorno estudiantil.
 -	Se concluye que el uso de IoT puede ser innovador y funcional en comunidades estudiantiles como el Politécnico Grancolombiano pero aún requiere de avances tecnológicos para la correcta implementación de estos y la reducción de errores en el proceso.
 

@@ -72,7 +72,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 
 
-## VII **DISEÑO**
+## VII. **DISEÑO**
 
 ### **Análisis previos**:
 - **Reqiusitos**: 
@@ -91,7 +91,7 @@ Para garantizar el correcto funcionamiento del gps y la estimación de llegada d
 
 
 
-## VII.	**REFERENCIAS BIBLIOGRÁFICAS**
+## VIII.	**REFERENCIAS BIBLIOGRÁFICAS**
 
 - Badawy, E. Elhakim, A. Abdulhameed, A. Zualkernan, I. (2016). An IoT based School bus Tracking and Monitoring System. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://library.iated.org/view/BADAWY2016ANI
 

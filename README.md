@@ -74,21 +74,21 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 
 ## VII.	**REFERENCIAS BIBLIOGRÁFICAS**
 
-Badawy, E. Elhakim, A. Abdulhameed, A. Zualkernan, I. (2016). An IoT based School bus Tracking and Monitoring System. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://library.iated.org/view/BADAWY2016ANI
+- Badawy, E. Elhakim, A. Abdulhameed, A. Zualkernan, I. (2016). An IoT based School bus Tracking and Monitoring System. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://library.iated.org/view/BADAWY2016ANI
 
-Dhanasekar, N. Valavan, C. Soundarya, S. (2019). IoT based Intelligent Bus Monitoring System. A.V.C College of Engineering, Mayiladuthurai, India. https://www.academia.edu/download/61525777/iot-based-intelligent-bus-monitoring-system-IJERTCONV7IS1109020191215-11913-viwh0.pdf
+- Dhanasekar, N. Valavan, C. Soundarya, S. (2019). IoT based Intelligent Bus Monitoring System. A.V.C College of Engineering, Mayiladuthurai, India. https://www.academia.edu/download/61525777/iot-based-intelligent-bus-monitoring-system-IJERTCONV7IS1109020191215-11913-viwh0.pdf
 
-Kamal, M. Atif, M. Mujahid, H. Shanableh, T. Al-Ali, A. Nabulsi, A. (2019). IoT Based Smart City Bus Stops. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://www.mdpi.com/1999-5903/11/11/227
+- Kamal, M. Atif, M. Mujahid, H. Shanableh, T. Al-Ali, A. Nabulsi, A. (2019). IoT Based Smart City Bus Stops. American University of Sharjah, Sharjah, Emiratos Árabes Unidos. https://www.mdpi.com/1999-5903/11/11/227
 
-Karthikeyan, U. Usha, G. (2023). A secured IoT-based intelligent transport system (IoT-ITS) framework. SRM Institute of Science and Technology, Chennai, India. https://link-springer-com.loginbiblio.poligran.edu.co/article/10.1007/s00500-023-08410-7
+- Karthikeyan, U. Usha, G. (2023). A secured IoT-based intelligent transport system (IoT-ITS) framework. SRM Institute of Science and Technology, Chennai, India. https://link-springer-com.loginbiblio.poligran.edu.co/article/10.1007/s00500-023-08410-7
 
-Roy, R. Kalotra, A. (2022). Vehicle Tracking System using Technological support for Effective Management in Public Transportation. University School of Business, Chandigarh University, Chandigarh, India. https://ijritcc.org/index.php/ijritcc/article/view/5515
+- Roy, R. Kalotra, A. (2022). Vehicle Tracking System using Technological support for Effective Management in Public Transportation. University School of Business, Chandigarh University, Chandigarh, India. https://ijritcc.org/index.php/ijritcc/article/view/5515
 
-Jablonski, D. (2002). Reference Data for Engineers chapter 37 Radio Navigation Systems. Newnes, Boston, Estados Unidos de América. https://www.sciencedirect.com/science/article/abs/pii/B978075067291750039X 
+- Jablonski, D. (2002). Reference Data for Engineers chapter 37 Radio Navigation Systems. Newnes, Boston, Estados Unidos de América. https://www.sciencedirect.com/science/article/abs/pii/B978075067291750039X 
 
-Babiuch, M. Foltýnek, P. Smutný, P. (2020). Using the ESP32 Microcontroller for Data Processing. Technical University of Ostrava, Ostrava, República Checa. https://ieeexplore.ieee.org/abstract/document/8765944 
+- Babiuch, M. Foltýnek, P. Smutný, P. (2020). Using the ESP32 Microcontroller for Data Processing. Technical University of Ostrava, Ostrava, República Checa. https://ieeexplore.ieee.org/abstract/document/8765944 
 
-Srivastava, D. Kesarwani, A. Dubey, S. (2008). Measurement of Temperature and Humidity by using Arduino Tool and DHT11. JSS Academy of Technical Education, Noida, India. https://www.academia.edu/download/58144752/IRJET-V5I12167.pdf 
+- Srivastava, D. Kesarwani, A. Dubey, S. (2008). Measurement of Temperature and Humidity by using Arduino Tool and DHT11. JSS Academy of Technical Education, Noida, India. https://www.academia.edu/download/58144752/IRJET-V5I12167.pdf 
 
 Dinculeană, D. Cheng, X. (2019). Vulnerabilities and Limitations of MQTT Protocol Used between IoT Devices. Middlesex University, Londres, Inglaterra. https://www.mdpi.com/2076-3417/9/5/848 
 

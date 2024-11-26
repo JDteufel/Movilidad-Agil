@@ -79,7 +79,7 @@ El desarrollo de este proyecto es fundamental para mejorar la gestión del trans
 - **Limitaciones**:
 
 ### **Esquemáticos**:
-![](https://github.com/JDteufel/Movilidad-Agil/blob/main/imagenes/esp32 sim800l gps.png)
+![](https://github.com/JDteufel/Movilidad-Agil/blob/main/Imagenes/esp32sim800lgps.png)
 
 ### **Cálculos**:
 Para garantizar el correcto funcionamiento del gps y la estimación de llegada de una sede a otra se deben tener en cuenta los siguientes puntos:
